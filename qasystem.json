@@ -1,0 +1,40 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "Thats helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "Budget",
+         "patterns": ["trip under 7000", "Trip for 3 people", "Trip for maharashtra","which is best place under budget 7000","How much money need for a trip to maharashtra"],
+         "responses": ["maharashtra is a place for everyone, if you want to enjoy late night parties, get “bhand” , and don't have to worry about getting home early or you want to sit in peace, gazing the stars, making plans for your future while staring at the lovely horizon along with those amazingly “calm” waves brushing your feet alongwith, all you can find in maharashtra which is under 7k for 2-3 people.","There are many places in maharashtra you should visit but it’s not possible to cover all of them in 3 days under 7000. Still if you follow a plan, you can cover most of the places Plan-1 - Reach hotel till 10 am. Do Lunch and rest till 1pm. Go to Baga Beach/Calangute Beach. Stay there till mid night.We stayed in albenjoh guest house walkable distance to Calangute Beach just 300m Plan2: Dhudh Sagar waterfall’s and Old maharashtra Church’s8AM Dhudh sagar waterfall's4 PM old maharashtra Church's5PM Panaji city and shopping7PM return to Room Night 9 PM - Baga beach and Tito's street"]
+		},
+		{"tag": "beach",
+         "patterns": ["maharashtra beaches", "names of maharashtra beaches", "which are best beaches in maharashtra","list of maharashtra beach"],
+         "responses": ["1.chapora beach 2.vogator beach 3.Anjuna beach 4.calangute beach 5.Candolim Beach 6.Arambol Beach 7.Morjim Beach 8.Miramar Beach 9.Ashwem Beach 10.Dona Paula Beach"]
+		},
+		{"tag": "fort",
+         "patterns": ["trip on fort in maharashtra 10000 5 yes ac", "maharashtra's forts", "forts in maharashtra","best forts in maharashtra"],
+         "responses": ["1.raigad fort, 2.Pratapgad fort, 3.Sinhgad fort, 4.Murud Janjira fort,5.Panhala fort,6.Shivneri fort,7.Sindhudurg fort,8.Torana fort, 9.Daulatabad fort, 10.Lohgad fort "]
+		},
+		{"tag": "cold",
+         "patterns": ["coldest places in india", "which are coldest places for trip", "cold places","suggest me cold places for tour"],
+         "responses": ["1.Lonavala, 2.Matheran, 3.Igatpuri, 4.Mahabaleshwar ,5.Khandala,6.Panchgani,7.Sawantwadi,8.Malshej Ghat, 9.Amboli, 10.Bhandardara"]
+		},
+		{"tag": "HeritagePlaces",
+         "patterns": ["Heritage Places in india", "which are Heritage Places for trip", "Heritage Places","suggest me Heritage Places for tour in india"],
+         "responses": ["1.Taj Mahal, Uttar Pradesh, 2.Hampi Vijayanagara Empire, Karnataka, 3.Mahabodhi Temple, Bihar, 4.Khajuraho Group of Monuments, Madhya Pradesh,5.Lothal Site, Gujarat,6.Ajanta Ellora Caves, Maharashtra,7.Mahabalipuram Shore, Tamil Nadu,8.Konarak Sun Temple, Orissa, 9.Golden Temple Amrutsar, 10.Jaisalmer Hill Fort, Rajasthan "]
+		},
+        {"tag": "Hill Station",
+         "patterns": ["Hill Station in pune", "Hill Station pune 10000 5 days yes AC hill station 3 people"],
+         "responses": ["A gorgeous hill station near Pune, Lonavala is located at the height of 622 m in the Sahyadri mountain range that separates the Deccan plateau and the Konkan coast. One of the most visited and favoured weekend getaways for people in Mumbai and Pune, this hill retreat boasts of caves, forts, lakes, and waterfalls amidst dense timberlands and verdant greenery. It’s also known for its variety of ‘Chikki.’"]
+		}
+   ]
+}

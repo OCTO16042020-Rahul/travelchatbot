@@ -1,0 +1,52 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "Thats helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+		{"tag": "beach",
+         "patterns": ["maharashtra beaches", "pune 10000 5 days yes AC beach 3 people","pune 13000 6 days yes AC beach 4 people","pune 14000 6 days yes AC beach 4 people"],
+         "responses": ["Day 1, Alibaug <br> Alibaug is a dainty little beach town that is perfect for a three-day trip or a weekend getaway. On your first day here indulge in water sports or camel or bike rides at the Alibaug and Nagaon beaches.The next day go exploring the important Kolaba and Murud-Janjira forts and end the day with a nice local fish or vegetarian thali at Hotel Sanman, one of the most famous eateries in Alibaug. On day three, head about 32 kilometres away to Kashid Beach where you can enjoy surfing and spot a few dolphins.<br><br> Day 2, Dahanu-Bordi Beach <br> Located along the Thane coastline, the Dahanu-Bordi Beach is a calm and serene beach that is not yet explored to its fullest. Ideal for a three day trip from Mumbai, here you can go trekking, explore the pristine beaches and even enjoy a few water sports.Since the beach is located about a three-hour drive away from Mumbai, you have enough time to explore the beach town in two days; you can save the third day to just relax and unwind in nature’s company before you get back to the grind.<br><br>Day 3, Ganpatipule <br> The drive to Ganptipule takes about seven hours, so to reach by mid-day, you will have to leave Mumbai early in the morning. On your first day, you’re bound to be a little tired, so do some light walking around villages to experience local culture.\n\nOn the second day, head out to the beach and spend the whole morning swimming or just relaxing by the beach side. Save the third day for visiting one of the most important temples in Maharashtra, the Swayambhu Ganesh Temple. While you’re there, enjoy local delicacies at one of the many restaurants near the temple.<br><br>"]
+		},
+		{"tag": "beach1",
+         "patterns": ["maharashtra beaches", "pune 10000 4 days yes luxury beach 2 people","pune 13000 6 days yes luxury beach 3 people","pune 14000 4 days yes luxury beach 3 people"],
+         "responses": ["Day 1, Alibaug <br> Alibaug is a dainty little beach town that is perfect for a three-day trip or a weekend getaway. On your first day here indulge in water sports or camel or bike rides at the Alibaug and Nagaon beaches.The next day go exploring the important Kolaba and Murud-Janjira forts and end the day with a nice local fish or vegetarian thali at Hotel Sanman, one of the most famous eateries in Alibaug. On day three, head about 32 kilometres away to Kashid Beach where you can enjoy surfing and spot a few dolphins.<br><br> Day 2, Dahanu-Bordi Beach <br> Located along the Thane coastline, the Dahanu-Bordi Beach is a calm and serene beach that is not yet explored to its fullest. Ideal for a three day trip from Mumbai, here you can go trekking, explore the pristine beaches and even enjoy a few water sports.Since the beach is located about a three-hour drive away from Mumbai, you have enough time to explore the beach town in two days; you can save the third day to just relax and unwind in nature’s company before you get back to the grind.<br><br>Day 3, Ganpatipule <br> The drive to Ganptipule takes about seven hours, so to reach by mid-day, you will have to leave Mumbai early in the morning. On your first day, you’re bound to be a little tired, so do some light walking around villages to experience local culture.\n\nOn the second day, head out to the beach and spend the whole morning swimming or just relaxing by the beach side. Save the third day for visiting one of the most important temples in Maharashtra, the Swayambhu Ganesh Temple. While you’re there, enjoy local delicacies at one of the many restaurants near the temple.<br><br>"]
+		},
+		{"tag": "beach2",
+         "patterns": ["maharashtra beaches", "pune 10000 4 days yes Deluxe beach 2 people","pune 13000 6 days yes Deluxe beach 3 people","pune 14000 4 days yes Deluxe beach 3 people"],
+         "responses": ["Day 1, Alibaug <br> Alibaug is a dainty little beach town that is perfect for a three-day trip or a weekend getaway. On your first day here indulge in water sports or camel or bike rides at the Alibaug and Nagaon beaches.The next day go exploring the important Kolaba and Murud-Janjira forts and end the day with a nice local fish or vegetarian thali at Hotel Sanman, one of the most famous eateries in Alibaug. On day three, head about 32 kilometres away to Kashid Beach where you can enjoy surfing and spot a few dolphins.<br><br> Day 2, Dahanu-Bordi Beach <br> Located along the Thane coastline, the Dahanu-Bordi Beach is a calm and serene beach that is not yet explored to its fullest. Ideal for a three day trip from Mumbai, here you can go trekking, explore the pristine beaches and even enjoy a few water sports.Since the beach is located about a three-hour drive away from Mumbai, you have enough time to explore the beach town in two days; you can save the third day to just relax and unwind in nature’s company before you get back to the grind.<br><br>Day 3, Ganpatipule <br> The drive to Ganptipule takes about seven hours, so to reach by mid-day, you will have to leave Mumbai early in the morning. On your first day, you’re bound to be a little tired, so do some light walking around villages to experience local culture.\n\nOn the second day, head out to the beach and spend the whole morning swimming or just relaxing by the beach side. Save the third day for visiting one of the most important temples in Maharashtra, the Swayambhu Ganesh Temple. While you’re there, enjoy local delicacies at one of the many restaurants near the temple.<br><br>"]
+		},
+		{"tag": "fort",
+         "patterns": ["fort in pune","pune 10000 5 days yes AC fort 3 people","pune 13000 6 days yes AC fort 4 people","pune 14000 6 days yes AC fort 4 people"],
+         "responses": ["1.raigad fort, 2.Pratapgad fort, 3.Sinhgad fort, 4.Murud Janjira fort,5.Panhala fort,6.Shivneri fort,7.Sindhudurg fort,8.Torana fort, 9.Daulatabad fort, 10.Lohgad fort "]
+		},
+        {"tag": "fort1",
+         "patterns": ["fort in pune","pune 10000 4 days yes luxury fort 3 people","pune 13000 6 days yes luxury fort 3 people","pune 14000 4 days yes luxury fort 3 people"],
+         "responses": ["1.raigad fort, 2.Pratapgad fort, 3.Sinhgad fort, 4.Murud Janjira fort,5.Panhala fort,6.Shivneri fort,7.Sindhudurg fort,8.Torana fort, 9.Daulatabad fort, 10.Lohgad fort "]
+		},
+        {"tag": "fort2",
+         "patterns": ["fort in pune","pune 12000 5 days yes Deluxe fort 3 people","pune 13000 6 days yes Deluxe fort 3 people","pune 14000 5 days yes Deluxe fort 3 people"],
+         "responses": ["1.raigad fort, 2.Pratapgad fort, 3.Sinhgad fort, 4.Murud Janjira fort,5.Panhala fort,6.Shivneri fort,7.Sindhudurg fort,8.Torana fort, 9.Daulatabad fort, 10.Lohgad fort "]
+		},
+        {"tag": "Hill Station",
+         "patterns": ["Hill Station in pune", "pune 10000 5 days yes AC hill station 3 people", "pune 11000 6 days yes AC hill station 3 people","pune 10000 4 days yes AC hill station 3 people"],
+         "responses": ["A gorgeous hill station near Pune, Lonavala is located at the height of 622 m in the Sahyadri mountain range that separates the Deccan plateau and the Konkan coast. One of the most visited and favoured weekend getaways for people in Mumbai and Pune, this hill retreat boasts of caves, forts, lakes, and waterfalls amidst dense timberlands and verdant greenery. It’s also known for its variety of ‘Chikki.’"]
+		},
+        {"tag": "Hill Station1",
+         "patterns": ["pune 12000 5 days yes luxury hill station 3 people", "pune 15000 6 days yes luxury hill station 3 people","pune 10000 4 days yes luxury hill station 3 people"],
+         "responses": ["A gorgeous hill station near Pune, Lonavala is located at the height of 622 m in the Sahyadri mountain range that separates the Deccan plateau and the Konkan coast. One of the most visited and favoured weekend getaways for people in Mumbai and Pune, this hill retreat boasts of caves, forts, lakes, and waterfalls amidst dense timberlands and verdant greenery. It’s also known for its variety of ‘Chikki.’"]
+		},
+        {"tag": "Hill Station2",
+         "patterns": ["pune 10000 5 days yes Deluxe hill station 3 people", "pune 11000 6 days yes Deluxe hill station 3 people","pune 10000 4 days yes Deluxe hill station 3 people"],
+         "responses": ["A gorgeous hill station near Pune, Lonavala is located at the height of 622 m in the Sahyadri mountain range that separates the Deccan plateau and the Konkan coast. One of the most visited and favoured weekend getaways for people in Mumbai and Pune, this hill retreat boasts of caves, forts, lakes, and waterfalls amidst dense timberlands and verdant greenery. It’s also known for its variety of ‘Chikki.’"]
+		}
+   ]
+}

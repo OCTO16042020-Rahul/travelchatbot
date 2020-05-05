@@ -1,0 +1,100 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "Thats helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "hours",
+         "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+         "responses": ["Were open every day 9am to 9pm", "Our hours are 9am-9pm every day"]
+        },
+        {"tag": "questionforcrime",
+         "patterns": ["what is cyber crime", "cyber crime", "what do you mean by cyber crime " ],
+         "responses": ["Any illegal activity committed using a computer and/or the internet can be called a cyber crime", "Any illegal activity committed using a computer and/or the internet can be called a cyber crime"]
+        },
+        {"tag": "digitalforensics",
+         "patterns": ["what is digital forensics", "what do you mean my digital forensics"],
+         "responses": ["It is a branch of forensic science encompassing the recovery and investigation of material found in digital devices, often in relation to computer crime."]
+        },
+        {"tag": "typesofdigitalforensics",
+         "patterns": ["types of digital forensics", "digital forensics types", "how many types of digital forensics"],
+         "responses": ["Computer forensics. 2.Network forensics. 3.Digital Image forensics. 4.Mobile Device forensics. 5.Digital Audio/Video Forensics. 6.Memory Forensics."]
+        },
+        {"tag": "computerforensics",
+         "patterns": ["what is computer forensics", "computer forensics definition", "define computer forensics"],
+         "responses": ["The identification, preservation, collection, analysis and reporting on evidence found on computers, laptops and storage media in support of investigations and legal proceedings."]
+        },
+        {"tag": "Networkforensics",
+         "patterns": ["what is Network forensics", "Network forensics definition", "define Network forensics"],
+         "responses": ["The monitoring, capture, storing and analysis of network activities or events in order to discover the source of security attacks, intrusions or other problem incidents, i.e. worms, virus or attacks, abnormal network traffic and security breaches."]
+        },
+        {"tag": "DigitalImageforensics",
+         "patterns": ["what is Digital Image forensics", "Digital Image forensics definition", "define Digital Image forensics"],
+         "responses": ["The extraction and analysis of digitally acquired photographic images to validate their authenticity by recovering the metadata of the image file to ascertain its history."]
+        },
+        {"tag": "MobileDeviceforensics",
+         "patterns": ["what is Mobile Device forensics", "Mobile Device forensics definition", "define Mobile Device forensics"],
+         "responses": ["The recovery of electronic evidence from mobile phones, smartphones, SIM cards, PDAs, GPS devices, tablets and game consoles."]
+        },
+        {"tag": "DigitalAudioVideoForensics",
+         "patterns": ["what is Digital Audio Video Forensics", "Digital Audio Video Forensics definition", "define Digital Audio Video Forensics"],
+         "responses": ["The collection, analysis and evaluation of sound and video recordings. The science is the establishment of authenticity as to whether a recording is original and whether it has been tampered with, either maliciously or accidentally."]
+        },
+        {"tag": "MemoryForensics",
+         "patterns": ["what is Memory Forensics", "Memory Forensics definition", "define Memory Forensics"],
+         "responses": ["The recovery of evidence from the RAM of a running computer, also called live acquisition"]
+        },
+        {"tag": "DigitalAudioVideoForensics",
+         "patterns": ["what is Digital Audio Video Forensics", "Digital Audio Video Forensics definition", "define Digital Audio Video Forensics"],
+         "responses": ["The collection, analysis and evaluation of sound and video recordings. The science is the establishment of authenticity as to whether a recording is original and whether it has been tampered with, either maliciously or accidentally."]
+        },
+        {"tag": "DigitalAudioVideoForensics",
+         "patterns": ["what is Digital Audio Video Forensics", "Digital Audio Video Forensics definition", "define Digital Audio Video Forensics"],
+         "responses": ["The collection, analysis and evaluation of sound and video recordings. The science is the establishment of authenticity as to whether a recording is original and whether it has been tampered with, either maliciously or accidentally."]
+        },
+        {"tag": "typesofcybercrime",
+         "patterns": ["types of cyber crime", "what are the types of cyber crime", "different types of cyber crime"],
+         "responses": ["1. Hacking 2. Denial of Service (DoS) attack 3. Trojan attack 4. Credit Card Frauds 5. Cyber Pornography 6. Online Betting 7. Software Piracy 8. Email Spoofing"]
+        },
+        {"tag": "Hacking",
+         "patterns": ["what is Hacking", "Hacking definition", "define Hacking"],
+         "responses": ["Hacking is an act committed by an intruder by accessing your computer system without your permission.Hackers (the people doing the ‘ hacking ’ ) are basically computer programmers, who have an advanced understanding of computers and commonly misuse this knowledge for devious reasons."]
+        },
+        {"tag": "DenialofServiceattack",
+         "patterns": ["Denial of Service attack", "what is Denial of Service attack", "define Denial of Service attack","definition Denial of Service attack"],
+         "responses": ["A Denial-of-Service (DoS) attack is an explicit attempt by attackers to deny service to intended users of that service. It involves flooding a computer resource with more requests than it can handle consuming its available bandwidth which results in server overload. This causes the resource (e.g. a web server) to crash or slow down significantly so that no one can access it. • Using this technique, the attacker can render a web site inoperable by sending massive amounts of traffic to the targeted site."]
+        },
+        {"tag": "TrojanAttack",
+         "patterns": ["what is Trojan Attack", "define Trojan Attack", "Trojan Attack definition"],
+         "responses": ["Trojans are pieces of malware allowing a hacker to remote access a computer system. They are not self-replicating and are not automated, so they need direct interaction with a hacker to fulfill their purpose. They operate without the permissions or knowledge of the computer users."]
+        },
+        {"tag": "CreditCardFraud",
+         "patterns": ["Credit Card Fraud", "what is Credit Card Fraud", "Credit Card Fraud definition","define Credit Card Fraud"],
+         "responses": ["Credit card fraud is a wide ranging term for crimes involving identity theft where the criminal uses your credit card to fund his transactions. Credit card fraud is identity theft in its simplest form."]
+        },
+        {"tag": "CyberPornography",
+         "patterns": ["Cyber Pornography", "what is Cyber Pornography", "Cyber Pornography definition","define Cyber Pornography"],
+         "responses": ["Cyber pornography can be defined as pornographic material designed, published or distributed using cyber space as a medium."]
+        },
+        {"tag": "OnlineBetting",
+         "patterns": ["Online Betting", "what is Online Betting", "Online Betting definition","define Online Betting"],
+         "responses": ["Federal law prohibits individuals from betting on sports or gambling contests which includes the Internet. Yet the Internet allows immediate and anonymous communication that makes it difficult to trace gambling activity. Internet sites can be altered or removed in a matter of minutes. For these reasons, organized crime operates Internet gambling sites."]
+        },
+        {"tag": "Softwarepiracy",
+         "patterns": ["Software piracy", "what is Software piracy", "Software piracy definition","define Software piracy"],
+         "responses": ["Software piracy is the unauthorised use and distribution of computer software. Software developers work hard to develop these programs, and piracy curbs their ability to generate enoughrevenue to sustain application development."]
+        },
+        {"tag": "EmailSpoofing",
+         "patterns": ["Email Spoofing", "what is Email Spoofing", "Email Spoofing definition","define Email Spoofing"],
+         "responses": ["Email spoofing is the forgery of an email header so that the message appears to have originated from someone or somewhere other than the actual source."]
+		}
+   ]
+}

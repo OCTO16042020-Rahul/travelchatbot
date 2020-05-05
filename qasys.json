@@ -1,0 +1,32 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "Thats helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+		{"tag": "beach",
+         "patterns": ["names of goa beaches", "which are best beaches in maharashtra"],
+         "responses": ["1.chapora beach 2.vogator beach 3.Anjuna beach 4.calangute beach 5.Candolim Beach 6.Arambol Beach 7.Morjim Beach 8.Miramar Beach 9.Ashwem Beach 10.Dona Paula Beach"]
+		},
+		{"tag": "fort",
+         "patterns": ["trip on fort in maharashtra", "maharashtra's forts", "forts in maharashtra","best forts in maharashtra"],
+         "responses": ["1.raigad fort, 2.Pratapgad fort, 3.Sinhgad fort, 4.Murud Janjira fort,5.Panhala fort,6.Shivneri fort,7.Sindhudurg fort,8.Torana fort, 9.Daulatabad fort, 10.Lohgad fort "]
+		},
+		{"tag": "cold",
+         "patterns": ["coldest places in india", "which are coldest places for trip", "cold places","suggest me cold places for tour"],
+         "responses": ["1.Lonavala, 2.Matheran, 3.Igatpuri, 4.Mahabaleshwar ,5.Khandala,6.Panchgani,7.Sawantwadi,8.Malshej Ghat, 9.Amboli, 10.Bhandardara"]
+		},
+		{"tag": "HeritagePlaces",
+         "patterns": ["Heritage Places in india", "which are Heritage Places for trip", "Heritage Places","suggest me Heritage Places for tour in india"],
+         "responses": ["1.Taj Mahal, Uttar Pradesh, 2.Hampi Vijayanagara Empire, Karnataka, 3.Mahabodhi Temple, Bihar, 4.Khajuraho Group of Monuments, Madhya Pradesh,5.Lothal Site, Gujarat,6.Ajanta Ellora Caves, Maharashtra,7.Mahabalipuram Shore, Tamil Nadu,8.Konarak Sun Temple, Orissa, 9.Golden Temple Amrutsar, 10.Jaisalmer Hill Fort, Rajasthan "]
+		}
+   ]
+}

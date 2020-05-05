@@ -1,0 +1,670 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "cybercrime",
+         "patterns": ["what is cyber crime", "cyber crime", "what do you mean by cyber crime"],
+         "responses": ["Any illegal activity committed using a computer and/or the internet can be called a cyber crime."],
+         "context_set": ""
+        },
+        {"tag": "digitalforensics",
+         "patterns": ["digital forensics", "what is digital forensics", "what do you mean my digital forensics"],
+         "responses": ["is a branch of forensic science encompassing the recovery and investigation of material found in digital devices, often in relation to computer crime."],
+         "context_set": ""
+        },
+        {"tag": "typesofdigitalforensics",
+         "patterns": ["types of digital forensics", "digital forensics types", "how many types of digital forensics"],
+         "responses": ["1.Computer forensics. 2.Network forensics. 3.Digital Image forensics. 4.Mobile Device forensics. 5.Digital Audio/Video Forensics. 6.Memory Forensics. "],
+         "context_set": ""
+        },
+        {"tag": "Computerforensics",
+         "patterns": ["what is computer forensics", "computer forensics", "computer forensics definition","define computer forensics"],
+         "responses": ["The identification, preservation, collection, analysis and reporting on evidence found on computers, laptops and storage media in support of investigations and legal proceedings."],
+         "context_set": ""
+        },
+        {"tag": "NetworkForensics",
+         "patterns": ["what is Network forensics", "Network forensics", "Network forensics definition","define Network forensics"],
+         "responses": ["The monitoring, capture, storing and analysis of network activities or events in order to discover the source of security attacks, intrusions or other problem incidents, i.e. worms, virus or attacks, abnormal network traffic and security breaches."],
+         "context_set": ""
+        },
+        {"tag": "DigitalImage forensics",
+         "patterns": ["what is Digital Image forensics", "Digital Image forensics", "Digital Image forensics definition","define Digital Image forensics"],
+         "responses": ["The extraction and analysis of digitally acquired photographic images to validate their authenticity by recovering the metadata of the image file to ascertain its history."],
+         "context_set": ""
+        },
+        {"tag": "MobileDeviceforensics",
+         "patterns": ["what is Mobile Device forensics", "Mobile Device forensics", "Mobile Device forensics definition","define Mobile Device forensics"],
+         "responses": ["The recovery of electronic evidence from mobile phones, smartphones, SIM cards, PDAs, GPS devices, tablets and game consoles."],
+         "context_set": ""
+        },
+        {"tag": "DigitalAudio/VideoForensics.",
+         "patterns": ["what is Digital Audio/Video Forensics.", "Digital Audio/Video Forensics.", "Digital Audio/Video Forensics definition","define Digital Audio/Video Forensics."],
+         "responses": ["The collection, analysis and evaluation of sound and video recordings. The science is the establishment of authenticity as to whether a recording is original and whether it has been tampered with, either maliciously or accidentally."],
+         "context_set": ""
+        },
+        {"tag": "MemoryForensics",
+         "patterns": ["what is Memory Forensics", "Memory Forensics", "Memory Forensics definition","define Memory Forensics"],
+         "responses": ["The recovery of evidence from the RAM of a running computer, also called live acquisition."],
+         "context_set": ""
+        },
+        {"tag": "typesofcybecrime",
+         "patterns": ["types of cyber crime", "what are the types of cyber crime","different types of cyber crime"],
+         "responses": ["1. Hacking 2. Denial of Service (DoS) attack 3. Trojan attack 4. Credit Card Frauds 5. Cyber Pornography 6. Online Betting 7. Software Piracy 8. Email Spoofing"],
+         "context_set": ""
+        },
+        {"tag": "Hacking",
+         "patterns": ["what is Hacking", "Hacking", "Hacking definition","define Hacking"],
+         "responses": [" Hacking is an act committed by an intruder by accessing your computer system without your permission.Hackers (the people doing the ‘ hacking ’ ) are basically computer programmers, who have an advanced understanding of computers and commonly misuse this knowledge for devious reasons."],
+         "context_set": ""
+        },
+        {"tag": "Denial-of-Serviceattack",
+         "patterns": ["what is Denial-of-Service attack", "Denial-of-Service attack", "Denial-of-Service attack definition","define Denial-of-Service attack"],
+         "responses": ["A Denial-of-Service (DoS) attack is an explicit attempt by attackers to deny service to intended users of that service. It involves flooding a computer resource with more requests than it can handle consuming its available bandwidth which results in server overload. This causes the resource (e.g. a web server) to crash or slow down significantly so that no one can access it. • Using this technique, the attacker can render a web site inoperable by sending massive amounts of traffic to the targeted site."],
+         "context_set": ""
+        },
+        {"tag": "TrojanAttack:",
+         "patterns": ["what is Trojan Attack", "Trojan Attack", "Trojan Attack definition","define Trojan Attack"],
+         "responses": ["Trojans are pieces of malware allowing a hacker to remote access a computer system. They are not self-replicating and are not automated, so they need direct interaction with a hacker to fulfill their purpose. They operate without the permissions or knowledge of the computer users."],
+         "context_set": ""
+        },
+        {"tag": "CreditCardFraud",
+         "patterns": ["what is Credit Card Fraud", "Credit Card Fraud", "Credit Card Fraud definition","define Credit Card Fraud"],
+         "responses": ["Credit card fraud is a wide ranging term for crimes involving identity theft where the criminal uses your credit card to fund his transactions. Credit card fraud is identity theft in its simplest form."],
+         "context_set": ""
+        },
+        {"tag": "CyberPornography",
+         "patterns": ["what is Cyber Pornography", "Cyber Pornography", "Cyber Pornography definition","define Cyber Pornography"],
+         "responses": ["Cyber pornography can be defined as pornographic material designed, published or distributed using cyber space as a medium."],
+         "context_set": ""
+        },
+        {"tag": "OnlineBetting",
+         "patterns": ["what is Online Betting", "Online Betting", "Online Betting definition","define Online Betting"],
+         "responses": [" Federal law prohibits individuals from betting on sports or gambling contests which includes the Internet. Yet the Internet allows immediate and anonymous communication that makes it difficult to trace gambling activity. Internet sites can be altered or removed in a matter of minutes. For these reasons, organized crime operates Internet gambling sites."],
+         "context_set": ""
+        },
+        {"tag": "Softwarepiracy",
+         "patterns": ["what is Software piracy", "Software piracy", "Software piracy definition","define Software piracy"],
+         "responses": ["Software piracy is the unauthorised use and distribution of computer software. Software developers work hard to develop these programs, and piracy curbs their ability to generate enoughrevenue to sustain application development."],
+         "context_set": ""
+        },
+        {"tag": "EmailSpoofing",
+         "patterns": ["what is Email Spoofing", "Email Spoofing", "Email Spoofing definition","define Email Spoofing"],
+         "responses": ["Email spoofing is the forgery of an email header so that the message appears to have originated from someone or somewhere other than the actual source."],
+         "context_set": ""
+        },
+         {"tag": " Defamation",
+         "patterns": ["what is  Defamation", " Defamation", " Defamation definition","define Defamation"],
+         "responses": ["Defamation implies to hurt the reputation of someone else. "],
+         "context_set": ""
+        },
+	{"tag": " CyberStalking",
+         "patterns": ["what is  Cyber Stalking", " Cyber Stalking", " Cyber Stalking definition","define  Cyber Stalking"],
+         "responses": ["Cyber stalking is a new form of internet crime in our society when a
+                        person is pursued or followed online.  A cyber stalker doesn’t physically follow his victim.He does it virtually by
+                        following his online activity to harvest information about the stalkee and
+                        harass him or her and make threats using verbal intimidation.
+                        Cyber stalking uses the internet or any other electronic means and is
+                        different from offline stalking. "],
+         "context_set": ""
+        },
+	{"tag": " PhasesofHacking",
+         "patterns": ["what  are Phases of Hacking", "Phases of Hacking"],
+         "responses": [" Reconnaissance,Scanning,Gaining Access,. Maintaining Access, Clearing Track"],
+         "context_set": ""
+        },
+	{"tag": " EthicalHacking",
+         "patterns": ["what is  Ethical Hacking", " Ethical Hacking", " Ethical Hacking definition","define Ethical Hacking"],
+         "responses": ["Ethical Hacking sometimes called as Penetration Testing is an act of
+			penetrating into system or networks to find out threats and
+			vulnerabilities in those systems which a malicious attacker may find and
+			exploit causing loss of data, financial loss or other major damages. "],
+         "context_set": ""
+        },
+	{"tag": "Reconnaissance",
+         "patterns": ["what is Reconnaissance", "Reconnaissance", "Reconnaissance definition","define Reconnaissance"],
+         "responses": ["Reconnaissance is the phase where the attacker gathers information about
+			a target using active or passive means. The tools that are widely used in
+			this process are NMAP, Hping, Maltego, and Google Dorks."],
+         "context_set": ""
+        },
+	{"tag": "Gaining Access",
+         "patterns": ["what is Gaining Access", "Gaining Access", "Gaining Access","define Gaining Access"],
+         "responses": ["In this process, the vulnerability is located and you attempt to exploit it in
+			order to enter into the system. The primary tool that is used in this process
+			is Metasploit."],
+         "context_set": ""
+        },
+	{"tag": "MaintainingAccess",
+         "patterns": ["what is Maintaining Access", "Maintaining Access", "Maintaining Access definition","define Maintaining Access"],
+         "responses": ["It is the process where the hacker has already gained access into a system.
+			After gaining access, the hacker installs some backdoors in order to enter
+			into the system when he needs access in this owned system in future.
+			Metasploit is the preferred tool in this process."],
+         "context_set": ""
+        },
+	{"tag": "ClearingTracks",
+         "patterns": ["what is Clearing Tracks", "Clearing Tracks", "Clearing Tracks definition","define Clearing Tracks"],
+         "responses": ["This process is actually an unethical activity. It has to do with the deletion
+			of logs of all the activities that take place during the hacking process"],
+         "context_set": ""
+        },
+	{"tag": "Reporting",
+         "patterns": ["what is Reporting", "Reporting", "Reporting definition","define Reporting"],
+         "responses": ["Reporting is the last step of finishing the ethical hacking process. Here the
+			Ethical Hacker compiles a report with his findings and the job that was done
+			such as the tools used, the success rate, vulnerabilities found"],
+         "context_set": ""
+        },
+	{"tag": "ReconnaissanceTools",
+         "patterns": ["what is Reconnaissance Tools", "Reconnaissance Tools", "Reconnaissance Tools definition","define Reconnaissance Tools"],
+         "responses": [" These are information gathering tools and they are -NMAP,Google Dork , Maltego"],
+         "context_set": ""
+        },
+	{"tag": "NMAP",
+         "patterns": ["what is NMAP", "NMAP", "NMAP definition","define NMAP"],
+         "responses": ["It is an open source tool that is used widely for network discovery and security auditing. Nmap was originally designed to scan large networks, 
+			but it can work equally well for single hosts. Network administrators also find it
+			useful for tasks such as network inventory, managing service upgrade
+			schedules, and monitoring host or service uptime"],
+         "context_set": ""
+        },
+	{"tag": "GoogleDork",
+         "patterns": ["what is Google Dork", "Google Dork", "Google Dork definition","define Google Dork"],
+         "responses": ["It is simply a way to query Google for certain information
+			that can be useful for security investigation. – Search engines index lot of information about anything
+			on internet, including individual companies and their
+			data."],
+         "context_set": ""
+        },
+	{"tag": "Maltego",
+         "patterns": ["what is Maltego", "Maltego", "Maltego definition","define Maltego"],
+         "responses": ["Used to trace footprints of any target you wish to
+			march.Enables to launch intelligence activity tests
+			against specific target.Once we run the Maltego app and transform the
+			target, the results we can get such as, IP,
+			domain etc"],
+         "context_set": ""
+        },
+	{"tag": "ScanningTools",
+         "patterns": ["what is Scanning Tools", "Scanning Tools", "Scanning Tools definition","define Scanning Tools"],
+         "responses": ["These tools are used for network scanning for loop holes ,vulnarability and other weak spots .Some tools for netwok scanning are - Nexpose, Wireshark , Nessus, Cain & Abel"],
+         "context_set": ""
+        },
+	{"tag": "Nexpose",
+         "patterns": ["what is Nexpose", "Nexpose", "Nexpose definition","define Nexpose"],
+         "responses": [" It is open source tool developed by Rapid7. – Use to scan vulnerabilities and performs various
+			network checks such as:
+			• Watch the exposure of vulnerabilities in time period,acquaint(inform) itself to new hazards.
+			• Categories the risk (High, medium, low)
+			• Detect and scan the new devices and accesses the vulnerabilities once they access the network."],
+         "context_set": ""
+        },
+	{"tag": "Wireshark",
+         "patterns": ["what is Wireshark", "Wireshark", "Wireshark definition","define Wireshark"],
+         "responses": ["It is network protocol analyzer at microscopic level. 
+		        Captures the problems online and perform analysis off-line.
+	                Can run on various platforms such as windows,
+			Linus, MacOS, Solaris etc. 
+ 			Most powerful tool for inspecting several protocols."],
+         "context_set": ""
+        },
+	{"tag": "Nessus",
+         "patterns": ["what is Nessus", "Nessus", "Nessus definition","define Nessus"],
+         "responses": ["Capable for scanning vulnerabilities which  permits remote hacking of sensitive information from the system. 
+			 Also used for resolving configuration problems. 
+			 It forestall(predict) the networks from thepenetration created by hackers. 
+			 Support wide range of OS, applications,databases, cloud infrastructure, physical and virtual networks etc."],
+         "context_set": ""
+        },
+	{"tag": " commandsinForensicImaging",
+         "patterns": ["what  are commands in Forensic Imaging", " commands in Forensic Imaging", " commands in Forensic Imaging definition","define commands in Forensic Imaging"],
+         "responses": ["1)dd (data duplication)
+				The dd command is the most basic open-source tool available to create a forensic image. Because it is almost universally present on any operating system like Unix and is the basis for several other forensic imaging utilities.
+				The dd command stands for “data duplicator” and used for copying and converting data. dd is theoldest imaging tool still used and is still functional and requires only minimal resources to run,
+					●It is very powerful low level utility of Linux which can do much more like:
+					●Backup and restore the entire hard disk or partition.
+					●Backup of MBR (Master Boot Record)
+					●It can copy and convert magnetic tape format, convert between ASCII and EBCDIC formats, swap bytes and can also convert lowercase to uppercase.
+					●It can also be used by Linux kernel makefiles to make boot images.
+			2)dcfldd (Defense Computer Forensics Laboratory by Nick Harbour)
+					•While dd can and has been used to acquire forensically sound images.
+					•dcfldd is an enhanced version of dd developed by the U.S. Department of Defense ComputerForensics Lab.
+					•It has some useful features for forensic investigators such as:
+					•On-the-fly hashing of the transmitted data.
+					•Progress bar of how much data has already been sent.
+					•Wiping of disks with known patterns.
+					•Verification that the image is identical to the original drive, bit-for-bit.
+					•Simultaneous output to more than one file/disk is possible.
+					•The output can be split into multiple files.
+					•Logs and data can be piped into external applications.
+			3)dc3dd
+				•It is forensically oriented version created by Jesse Kornblum for the Department of
+				•dc3dd is a patched version of GNU dd with added features for computer forensics.
+			    The following features are available in dc3dd that are not found in GNU dd:
+				• On the fly hashing with multiple algorithms (MD5, SHA-1, SHA-256, and SHA-512) with variable sized piecewise hashing
+				• Able to write errors directly to a file
+				• Combined error log. Groups errors together (e.g. Had 1,023 'Input/output errors'between blocks 17-233' )
+				• Pattern wiping. Wipe output files with a single hex digit or a text pattern
+				• Verify mode
+				• Progress reports. See the progress of the operation while it's running
+				• Split output. Able to split output files into fixed size chunks"],
+         "context_set": ""
+        },
+
+	{"tag": " Cain&Abel",
+         "patterns": ["what is Cain & Abel", " Cain & Abel", " Cain & Abel definition","define  Cain & Abel"],
+         "responses": ["Cain & Abel is a password recovery tool for Microsoft Operating Systems.
+			It helps in easy recovery of various kinds of passwords by employing any of the following methods −
+			Sniffing the network,  cracking encrypted passwords using Dictionary, Brute-Force and Cryptanalysis
+			attacks, recording VoIP conversations,  decoding scrambled passwords,recovering wireless network keys, revealing password boxes, uncovering cached passwords and analyzing routing protocols.
+			Cain & Abel is a useful tool for security consultants, professional
+			penetration testers and everyone else who plans to use it for ethical
+			reasons."],
+         "context_set": ""
+        },
+ 	{"tag": "PreventionfromCybercrime",
+         "patterns": [ "how to Prevent Cybercrime"],
+         "responses": ["1. Identification of exposures through education
+			2. Avoid disclosing any personal information to strangers online.
+			3. Update antivirus to guard against virus attack.
+			4. Backup the data frequently.
+			5. Do not share credit/debit card number to any site that is not secure.
+			6. Avoid sending photographs to unknown site/person.
+			7. Parents should keep watch when their children are accessing internet.
+			8. Website owners should keep watch on network traffic and check for any irregularities.
+			9. Web servers running on public domain must be segregated physically and protected from
+			internal network.
+			10. Use security programs.
+			11. Strict laws need to be passed.
+			12. Publish guidelines and notifications for computer protection.
+			13. Steps need to taken at international level to prevent cybercrime.
+			14. Complete justice must be provided to the victims of cybercrime. "],
+         "context_set": ""
+        },
+ 	{"tag": "PreventionfromHackers",
+         "patterns": ["Prevention from Hackers"],
+         "responses": ["1. There exist a special Information security Research Team which finds such holes
+			and notify it to the vendors.
+			2. To track attacking hackers, defending hackers create detecting system whereas
+			attacking hackers creates by-passing system. This will lead to generate better
+			detecting and tracking system.
+			3. Ethical Hackers works to prevent the hackers. They are trustworthy having skill,
+			mindset and tools of hacker.
+			4. Ethical hackers are called as white hat testers (legal hacking) who have same set of
+			tools that hackers have.
+			5. The intent of ethical hacking is to secure the system by finding vulnerabilities from
+			hacker point of view.
+			6. To protect your system, you must think like hackers.
+			7. It is not possible to protect your system from everything.
+			8. It is not possible to overcome all the vulnerabilities from your computer "],
+         "context_set": ""
+        },
+ 	{"tag": "PreventionfromCrackers",
+         "patterns": ["Prevention from Crackers"],
+         "responses": ["1.Don’t open any attachments sent from
+			suspicious email addresses
+			2. Never send your banking info or credit card
+			numbers via email
+			3.Don’t use public Wi-Fi for any activities you want
+			to keep private "],
+         "context_set": ""
+        },
+ 	{"tag": "PreventionfromPhreakers",
+         "patterns": ["Prevention from Phreakers",  "how Prevent Phreakers"],
+         "responses": ["Choose a strong password on your telecoms accounts.
+			• To be extra secure, you should change passwords every
+			90 days.
+			• Block specific numbers: you have the opportunity to block
+			calls to premium rate numbers and calls made abroad.
+			• Ask for or add a call reporting system; these enable you to
+			set-up daily reports or alerts which will help you keep track
+			of call volumes and spend, alerting you to unusual calling
+			patterns.
+			• Avoid ‘ trunk-to-trunk calls ’ ; trunk-to-trunk calls are usually
+			used to support conferencing features and direct dial to
+			voicemail services.
+			• Ask for Services such as ‘ fraud detection ’ which
+			automatically monitor normal call patterns can alert or even
+			suspend telephone lines automatically if hacking is
+			suspected. "],
+         "context_set": ""
+        },
+ {"tag": "PurposeofHacking",
+         "patterns": ["what is the Purpose of Hacking"],
+         "responses": ["1)Just for fun
+			2)Show-off
+			3)Steal important information
+			4)Damaging the system
+			5)Hampering privacy
+			6)Money extortion
+			7)System security testing
+			8)To break policy compliance "],
+         "context_set": ""
+        },
+ {"tag": "  RulesforDigitalForensics",
+         "patterns": ["what  are Rules for   Digital Forensics", " The Rules for Computer/Digital Forensics"],
+         "responses": ["Rule 1. An examination should never be performed on the original media.
+			Rule 2. A copy is made onto forensically sterile media. New media should always
+			be used if available.
+			 Rule 3. The copy of the evidence must be an exact, bit-by-bit copy. (Sometimes
+			referred to as a bit-stream copy).
+			 Rule 4. The computer and the data on it must be protected during the
+			acquisition of the media to ensure that the data is not modified. (Use a write
+			blocking device when possible)
+			 Rule 5. The examination must be conducted in such a way as to prevent any
+			modification of the evidence.
+			 Rule 6. The chain of the custody of all evidence must be clearly maintained to
+			provide an audit log of whom might have accessed the evidence and at what time."],
+         "context_set": ""
+        },
+
+	{"tag": " Differenttypeofdigital forensics",
+         "patterns": ["what  are Different types of digital forensics", " Different types of digital forensics"],
+         "responses": ["1. Computer Forensics 
+			2. Network Forensics 
+			3. Mobile Devices Forensics
+  			4. Digital Image Forensics 
+			5. Digital Video/Audio Forensics 
+			6. Memory forensics "],
+         "context_set": ""
+        },
+
+	{"tag": " ComputerForensics",
+         "patterns": ["what is  Computer Forensics", " Computer Forensics", " Computer Forensics definition","define Computer Forensics"],
+         "responses": ["the identification, preservation, collection,
+			analysis and reporting on evidence found on computers, laptops and
+			storage media in support of investigations and legal proceedings."],
+         "context_set": ""
+        },
+
+	{"tag": " MobileDevices Forensics",
+         "patterns": ["what is Mobile Devices Forensics", "Mobile Devices Forensics", "Mobile Devices Forensics definition","define  Mobile Devices Forensics"],
+         "responses": ["the recovery of electronic evidence from
+			mobile phones, smartphones, SIM cards, PDAs, GPS devices, tablets
+			and game consoles."],
+         "context_set": ""
+        },
+	{"tag": " DigitalImage Forensics",
+         "patterns": ["what is Digital Image Forensics", "Digital Image Forensics", "Digital Image Forensics definition","define Digital Image Forensics"],
+         "responses": ["the extraction and analysis of digitally
+			acquired photographic images to validate their authenticity by
+			recovering the metadata of the image file to ascertain its history."],
+         "context_set": ""
+        },
+	{"tag": "DigitalVideo/Audio Forensics",
+         "patterns": ["what is Digital Video/Audio Forensics", "Digital Video/Audio Forensics", "Digital Video/Audio Forensics definition","define  Digital Video/Audio Forensics"],
+         "responses": ["the collection, analysis and
+			evaluation of sound and video recordings. The science is the
+			establishment of authenticity as to whether a recording is original and
+			whether it has been tampered with, either maliciously or accidentally"],
+         "context_set": ""
+        },
+	{"tag": " Memoryforensics",
+         "patterns": ["what is Memory forensics", "Memory forensics", "Memory forensics definition","define  Memory forensics"],
+         "responses": ["the recovery of evidence from the RAM of a
+			running computer, also called live acquisition."],
+         "context_set": ""
+        },
+	{"tag": " NetworkForensics",
+         "patterns": ["what is Ethics in Digital Forensics, "Ethics in Digital Forensics", "Ethics in Digital Forensics definition","define Ethics in Digital Forensics"],
+         "responses": ["Ethics:
+			1) Honesty towards investigation
+			2)Careful handling of evidences
+			3) Complience with the law & professional norms
+			• General Ethical norms are:
+			  The Investigator should contribute to the society and human being
+			• avoid harm to others
+			• be honest and trustworthy
+			• take action not to discriminate
+			• honor property rights, copyrights, patents etc.
+			• give proper credit to intellectual property
+			• respect the privacy of others
+			• maintain confidentiality"],
+         "context_set": ""
+        },
+	{"tag": "DigitalEvidences",
+         "patterns": ["what is Digital Evidences", "Digital Evidences", "Digital Evidences definition","define Digital Evidences"],
+         "responses": ["encompasses any or all digital data to
+			an investigation that is stored on, recieved by, or transmited by electronic device.
+			• Evidence can be that data from which investigator can find a crime has been committed or not.
+			• The digital data can provide a link between a crime and its victim or a crime and its perpetrator.
+			• Digital Evidences can be extracted from:
+			1) Volatile Memory: (RAM data)
+			2) Non-volatile Memory (Disk data)"],
+         "context_set": ""
+        },
+	{"tag": " Evidences",
+         "patterns": ["what is Evidences", "Evidences", "Evidences definition","define  Evidences"],
+         "responses": ["Computer documents, emails, text and instant messages,
+			transactions, images, videos and Internet histories are examples of
+			information that can be gathered from electronic devices and used very
+			effectively as evidence."],
+         "context_set": ""
+        },
+	{"tag": " RulesofDigital Evidence",
+         "patterns": ["what are  Rules of Digital Evidence", "Rules of Digital Evidence", "Rules of Digital Evidence definition","define Rules of Digital Evidence"],
+         "responses": ["The Rules defines whether the evidence is acceptable or not?
+			• The five properties that evidence must have in order to be useful:
+			1. Admissible: evidence must be able to be used in court.
+			2. Authentic: evidence must be tied to the incident in order to provesomething.
+			3. Complete: It's not enough to collect evidence that just shows oneperspective of the incident.
+			4. Reliable: Your evidence collection and analysis procedures must notcast doubt on the evidence’s authenticity.
+			5. Believable: The evidence you present should be clearly understandableand believable by a jury."],
+         "context_set": ""
+        },
+	{"tag": " Rule 103:",
+         "patterns": ["what is Rule 103:", "Rule 103:", "Rule 103: definition","define Rule 103:"],
+         "responses": ["1) Maintaining the claim of Error
+			2)No renewal of objection or proofs
+			3)Aim an offer of proof
+			4)Plain error taken as notice."],
+         "context_set": ""
+        },
+	{"tag": " Types ofEvidence",
+         "patterns": ["what are Types of Evidence", "Types of Evidence", "Types of Evidence definition","define Types of Evidence"],
+         "responses": ["1. Illustrative Evidence
+			2. Electronic Evidence
+			3. Documented Evidence
+			4. Explainable Evidence
+			5. Substantial Evidence
+			6. Testimonial Evidence"],
+         "context_set": ""
+        },
+	{"tag": " IllustrativeEvidence",
+         "patterns": ["what is Illustrative Evidence", "Illustrative Evidence", "Illustrative Evidence definition","define Illustrative Evidence"],
+         "responses": ["Also called as Demonstrative Evidence. This is a common form of proof,
+			generally having the form of the representation of an object.
+			Examples: photographs, videos, sound recordings, x-rays, maps, drawings,
+			graphs, charts, simulations, sculptures, and models."],
+         "context_set": ""
+        },
+	{"tag": " ElectronicEvidence",
+         "patterns": ["what is Electronic Evidence", "Electronic Evidence", "Electronic Evidence definition","define Electronic Evidence"],
+         "responses": ["It is any type of proof that can be obtained from an electronic source, such as
+			emails, hard drives, word documents, instant message logs, ATM
+			transactions, cell phone logs, email, text messages, audio & video files.
+			• Digital evidence can be found on any server or device that stores data, includingsome lesser-known sources such as home video game consoles, GPS sport
+				watches and internet-enabled devices used in home automation. 
+				Digitalevidence is often found through internet searches using open source
+				intelligence (OSINT)."],
+         "context_set": ""
+        },
+	{"tag": " DocumentedEvidence",
+         "patterns": ["what is Documented Evidence", "Documented Evidence", "Documented Evidence definition","define Documented Evidence"],
+         "responses": ["documentary evidence consists of
+			any proof that can be presented in writing (contracts, wills, invoices, etc.).
+			• However, term can technically include any number of media upon which
+			such documentation can be recorded and stored (photographs,recordings, films, printed emails, etc."],
+         "context_set": ""
+        },
+	{"tag": " TestimonialEvidence",
+         "patterns": ["what is Testimonial Evidence", "Testimonial Evidence", "Testimonial Evidence definition","define Testimonial Evidence"],
+         "responses": ["This is the "spoken evidence given by a witness under oath in court or at a
+			deposition, or written evidence given under oath through an affidavit" .
+			• Generally, a witness is called forth, solemnly swears to tell the truth under the penalty of perjury.
+			• This is one of the most common forms of evidence in the legal system."],
+         "context_set": ""
+        },
+	{"tag": " IncidentResponseProcess",
+         "patterns": ["what is Incident Response Process", "Incident Response Process", "Incident Response Process definition","define  Incident Response Process"],
+         "responses": ["1. Initial Response : Initial response includes those activities that respond to an incident: policies, tools,procedures, effective governance and communication plans.
+			2. Investigation : Investigation is the phase where team personnel determine the priority, scope, and root cause of the incident.
+			3. Remediation : Remediation is the post-incident repair of affected systems, communication, and instruction to affected parties, and analysis that confirms the threat has been contained.
+			4. Tracking of Significant Investigative Information :
+				1. List of evidence collected
+				2. List of affected systems
+				3. List of any files of interest
+				4. List of accessed and stolen data
+				5. List of significant attacker activity
+				6. List of network-based IOCs (Indicators of Compromise : Tactice used to quick detection of breach)
+				7. List of host-based IOCs
+				8. List of compromised accounts
+				9. List of ongoing and requested tasks for your teams
+			5. Reporting : All incident response activities will be documented to include artifacts obtained using methods consistent with chain of custody and confidentiality requirements."],
+         "context_set": ""
+        },
+	{"tag": "IncidentResponseMethodology",
+         "patterns": ["what is Incident Response Methodology", "Incident Response Methodology", "Incident Response Methodology definition","define Incident Response Methodology"],
+         "responses": ["1. Pre-incident preparation
+			2. Detection of incidents
+			3. Initial response
+			4. Formulate response strategy
+			5. Investigate the incident
+			6. Reporting
+			7.Resolution"],
+         "context_set": ""
+        },
+	{"tag": "Pre-incidentpreparation",
+         "patterns": ["what is  Pre-incident preparation", " Pre-incident preparation", " Pre-incident preparation definition","define Pre-incident preparation"],
+         "responses": ["1. Preparing the organization: Developing all of the corporate-wide strategies you need toemploy to get better position of your organization for incident response is what all is required for preparation.
+				Preparation of an organization includes: 
+				 (a) Host-based security actions should be implemented.
+				 (b) Network-based security procedures should be implemented.
+				 (c) Training for eventual users.
+				 (d) Intrusion detection system (IDS) should be active.
+				 (e) Formation of strong access control.
+				 (f ) Performance of timely weakness assessments.
+				 (g) Safeguarding backups which are achieved on a regular basis.
+			2. Preparing the computer security incident response team: During the pre-incident preparationphase, the CSIRT is defined. Your organization needs to assemble a team of experts to handle any incidents that occur.
+				Preparing the CSIRT includes:
+				 (a) To investigate computer security incidents, hardware is needed.
+				 (b) To investigate computer security incidents, software is needed.
+				 (c) To investigate computer security incidents, documentation (forms and reports) are needed.
+				 (d) To implement your response strategies, there should be appropriate policies and operating procedures.
+				 (e) To perform incident response in such a manner that it promotes successful forensics, investigations,and remediation; train your staff or employees."],
+         "context_set": ""
+        },
+	{"tag": " DetectionofIncident",
+         "patterns": ["what isDetection of Incident", "Detection of Incident", "Detection of Incident definition","define Detection of Incident"],
+         "responses": ["• It cannot be successful in response to incidents if anorganization cannot notice or sense incidents successfully.
+			• Therefore, one of the most important features of incidentresponse is the detection of incident’s phase.
+			• It is also one of the most disjointed phases, in which incidentresponse proficiency has only slight control."],
+         "context_set": ""
+        },
+	{"tag": " InitialResponse",
+         "patterns": ["what is Initial Response", "Initial Response", "Initial Response definition","define Initial Response"],
+         "responses": ["Initial response phase involves:
+			1. Interviewing system administrators of an incident who might have an understanding of the technical details.
+			2. Interviewing business unit human resource that may provide a context for the incident, which mighthave an understanding into the business events.
+			3. To identify data-reviewing intrusion detection reports and network-based logs of the incident thatwould support that an incident has occurred.
+			4. To determine if any avenues of attack can be ruled out, review the network topology and access controllists of an incident."],
+         "context_set": ""
+        },
+	{"tag": " FormulateResponseStrategy",
+         "patterns": ["what is Formulate Response Strategy", "Formulate Response Strategy", "Formulate Response Strategy definition","define Formulate Response Strategy"],
+         "responses": ["1. Considering the totality of the circumstances
+			2. Considering appropriate responses
+			3. Taking action
+			4. Legal action
+			5. Administrative action"],
+         "context_set": ""
+        },
+	{"tag": " InvestigatetheIncident",
+         "patterns": [" How to Investigate the Incident", "Investigate the Incident", "Investigate the Incident definition","define  Investigate the Incident"],
+         "responses": ["1. Data collection : The accumulation of facts and clues that should be considered during your forensic analysis is data collection. The basis of your conclusions is the data you collect.
+			2. Forensic analysis : Forensic analysis consists of reviewing all the data collected. It also includes reviewing log files, system configuration files, trust relations, web browser history records,
+ 				electronic mail messages and their attachments, installed applications, and graphic files."],
+         "context_set": ""
+        },
+	{"tag": "Reporting",
+         "patterns": ["what is Reporting", "Reporting", "Reporting definition","define Reporting"],
+         "responses": ["1. Document immediately
+			2. Write concisely and clearly
+			3. Use a standard format
+			4. Use editors"],
+         "context_set": ""
+        },
+	{"tag": "Resolution",
+         "patterns": ["what is Resolution", "Resolution", "Resolution definition","define  Resolution"],
+         "responses": ["To implement host-based, network-based, and procedural countermeasures to prevent an incident from
+			causing further damage and to return your organization to a secure, healthy operational status is the goal ofresolution phase."],
+         "context_set": ""
+        },
+	{"tag": " PhasesafteDetectionofIncident",
+         "patterns": ["what isPhases after Detection of Incident", "Phases after Detection of Incident", "Phases after Detection of Incident","define Phases after Detection of Incident"],
+         "responses": ["1. Recording the Details after Initial Detection :
+				a. Initial response checklists : To record the circumstances surrounding a reported incident, use an initial response checklist as the mechanism.
+				b. Second section of the initial response checklist : The second part of the initial response checklist could be usedby the members of the CSIRT to address the technical details surrounding the incident.
+			2. Incident Declaration : In most of the cases, it will be immediately obvious whether or not the activity is actually acomputer security incident in which suspicious activity is reported.
+			3. Assembling the Computer Security Incident Response Team : Responding to incidents, many organizations have aCSIRT that is formed in response to a particular situation or incident rather than an established and dedicated centralized team.
+			4. Performing Traditional Investigation Steps :
+				a. Host-based evidence
+				b. Network-based evidence
+				c. Other evidence
+			5. Conducting Interviews : The first step is to start asking the “who, what, when, where, and how” questions, when your CSIRT learns of a suspected incident.
+			6. Formulating a Response Strategy : The most important aspect of incident response is arguably your response strategy.
+				In this phase, you consider what remedial steps to take to recover from the incident."],
+         "context_set": ""
+        },
+	{"tag": " RoleofCrimeSceneTechnicians",
+         "patterns": ["what is Role of Crime Scene Technicians", "Role of Crime Scene Technicians", "Role of Crime Scene Technicians definition","define Role of Crime Scene Technicians"],
+         "responses": ["2.Shutting down the computer system for transport
+			3.Marking and recording the evidence
+			4.Packaging of the evidence
+			5.Transporting evidence
+			6.Processing the evidence"],
+         "context_set": ""
+        },
+{"tag": "CollectTemporalData:",
+         "patterns": [ "how  Collect Temporal Data:"],
+         "responses": ["1. Run a Trusted cmd.exe\n 2. Recording the system time and date 3.Identify who has logged on to the system and who are the remote access users.
+			4. Record creation, access time, and all the modifications made to the files
+			5.Identifying open ports.
+			6. List of applications that are associated with those ports.
+			7. List of all running processes.
+			8. List of current and recent connections.
+			9.Record date and time of target system.
+			10. Commands accessed at the time of initial response."],
+         "context_set": ""
+        },
+{"tag": "LiveDataCollected",
+         "patterns": [ "how  is Live Data Collected"],
+         "responses": ["• Live Data Collection from Windows System
+			The first step is to determine whether the system was used by the victim or the attacker.
+			• Creating a Response Toolkit -- Steps:
+			1. Collecting the tools
+				There are two types of applications available in windows:
+				    1. Based on GUI (Graphical User Interface)
+				    2. Based on CUI (Control User Interface)
+			2. Preparing the response toolkit:
+				There are several stages to prepare toolkit for initial response:
+				    1. Tag a response toolkit media
+				    2. Check the dependencies
+				    3. Creating checksum for the response toolkit 
+			3. Preparing the response toolkit
+			  	There are several stages to prepare toolkit for initial response:
+			  • Tag a response toolkit media
+			  • Check the dependencies
+			  • Creating checksum for the responsetoolkit"],
+         "context_set": ""
+        }
+
+   ]
+}
